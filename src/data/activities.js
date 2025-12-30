@@ -48,8 +48,7 @@ export const activities = [
             "Showed measurable improvements, achieving A and B grades in target subjects"
         ],
         images: [
-            "https://placehold.co/800x500/2563eb/ffffff?text=Platform+Homepage",
-            "https://placehold.co/800x500/1e40af/ffffff?text=Tutoring+Session"
+            "/educam-screenshot.png"
         ]
     },
     {
@@ -203,15 +202,15 @@ export const profile = {
             distinctions: "GPA: 4.0/4.0"
         },
         {
-            school: "Narpay School No. 34",
-            duration: "Jan 2020 - May 2021",
-            focus: "General Secondary Education",
-            distinctions: ""
-        },
-        {
             school: "Navoi school 2",
             duration: "Sep 2015 - Jan 2020",
             focus: "Primary & Secondary Education",
+            distinctions: ""
+        },
+        {
+            school: "Narpay School No. 34",
+            duration: "Jan 2020 - May 2021",
+            focus: "General Secondary Education",
             distinctions: ""
         }
     ],

@@ -38,7 +38,7 @@ export default function Home() {
                     <div style={{ flex: '0 0 300px', height: '300px', background: '#e5e7eb', borderRadius: '2rem', overflow: 'hidden' }}>
                         {/* Placeholder for Profile Photo */}
                         <img
-                            src="https://placehold.co/400x400/1e3a8a/FFFFFF?text=Student+Profile"
+                            src="/images/profile.jpg"
                             alt="Profile"
                             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                         />
