@@ -1,0 +1,67 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "content"
+    label: "Content"
+    files:
+      - name: "profile"
+        label: "Profile"
+        file: "src/content/profile.json"
+        description: "Edit your personal profile information"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Headline", name: "headline", widget: "string"}
+          - {label: "About Me", name: "about", widget: "text"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "LinkedIn URL", name: "linkedin", widget: "string"}
+          - {label: "Telegram URL", name: "telegram", widget: "string"}
+          - label: "Education"
+            name: "education"
+            widget: "list"
+            fields:
+              - {label: "School", name: "school", widget: "string"}
+              - {label: "Duration", name: "duration", widget: "string"}
+              - {label: "Focus", name: "focus", widget: "string"}
+              - {label: "Badge/Class", name: "badge", widget: "string", required: false}
+              - {label: "Distinctions", name: "distinctions", widget: "string", required: false}
+
+      - name: "activities"
+        label: "Activities"
+        file: "src/content/activities.json"
+        description: "Manage your portfolio activities"
+        fields:
+          - label: "Activities List"
+            name: "activities"
+            widget: "list"
+            fields:
+              - {label: "ID (Unique)", name: "id", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Duration", name: "duration", widget: "string"}
+              - {label: "Summary (Short)", name: "summary", widget: "text"}
+              - {label: "Full Description", name: "description", widget: "markdown"}
+              - label: "Impact Points"
+                name: "impact"
+                widget: "list"
+              - label: "Images"
+                name: "images"
+                widget: "list"
+
+      - name: "honors"
+        label: "Honors"
+        file: "src/content/honors.json"
+        description: "Manage your awards and honors"
+        fields:
+          - label: "Honors List"
+            name: "honors"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Award", name: "award", widget: "string"}
+              - {label: "Year", name: "year", widget: "string"}
+              - {label: "Level", name: "level", widget: "string"}

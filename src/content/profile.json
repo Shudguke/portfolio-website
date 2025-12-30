@@ -1,0 +1,29 @@
+{
+    "name": "Islom Zokirov",
+    "headline": "Computer Science Student | Impact-Focused Software Development",
+    "about": "I am a senior student at Presidential School in Samarkand, Uzbekistan, with a strong background in mathematics and computer science. I aim to develop software and applications that protect public health and improve lives. My long-term goal is to integrate computer science with environmental sustainability. Through my studies and projects, I focus on practical solutions that create meaningful impact.",
+    "education": [
+        {
+            "school": "Presidential School in Samarkand",
+            "duration": "Oct 2021 - Jun 2026",
+            "badge": "Class of 2026",
+            "focus": "Computer Science & Mathematics",
+            "distinctions": "GPA: 4.0/4.0"
+        },
+        {
+            "school": "Navoi school 2",
+            "duration": "Sep 2015 - Jan 2020",
+            "focus": "Primary & Secondary Education",
+            "distinctions": ""
+        },
+        {
+            "school": "Narpay School No. 34",
+            "duration": "Jan 2020 - May 2021",
+            "focus": "General Secondary Education",
+            "distinctions": ""
+        }
+    ],
+    "email": "zokirovislom269@gmail.com",
+    "linkedin": "www.linkedin.com/in/islom-zokirov-3a91b62a1",
+    "telegram": "t.me/ortafel"
+}
