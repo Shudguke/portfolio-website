@@ -32,7 +32,7 @@ export default function Layout({ children }) {
 
             <footer>
                 <div className="container">
-                    <p>© {new Date().getFullYear()} Student Portfolio. Built for Impact.</p>
+                    <p>© 2025 Student Portfolio. Built for Impact.</p>
                 </div>
             </footer>
 
